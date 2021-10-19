@@ -1,5 +1,8 @@
 # Backup of dot files
 
+## GRUB theme
+https://github.com/lfelipe1501/Atomic-GRUB2-Theme
+
 ## Restoring 
 ```
 git clone --bare https://github.com/san-santra/dots.git $HOME/.cfg
