@@ -15,6 +15,9 @@ compinit
 autoload -Uz promptinit
 promptinit
 
+# zplug - manage plugins
+source /usr/share/zplug/init.zsh
+
 # ---------
 # copied from: https://github.com/MrElendig/dotfiles-alice/blob/master/.zshrc
 # --------
@@ -33,6 +36,7 @@ alias grep="grep --color"
 alias vi="vim"
 # for congfig backup
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias python='python3'
 
 #------------------------------
 # Window title
